@@ -7,7 +7,7 @@ body {
 }
 
 .logo a {
-    background-image: url("logo.png");
+    background-image: url("images/logo.png");
     background-size: 300px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -20,7 +20,7 @@ body {
 
 header {
     background: black;
-    background-image: url("hero.jpg");
+    background-image: url("images/hero.jpg");
     background-size: 100%;
     background-position: center;
     height: 400px;
@@ -31,8 +31,16 @@ section.feature-box {
     background: white;
     color: gray;
     padding: 20px;
+}
+.feature-box.images {
     display: flex;
     flex-direction: row;
+}
+.feature-box.big-space {
+    display: block;
+    color: black;
+    text-align: center;
+    line-height: 30px;
 }
 
 div {
