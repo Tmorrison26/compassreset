@@ -37,7 +37,8 @@ section.feature-box {
     flex-direction: row;
 }
 .feature-box.big-space {
-    display: block;
+    display: flex;
+    flex-direction: column;
     color: black;
     text-align: center;
     line-height: 30px;
