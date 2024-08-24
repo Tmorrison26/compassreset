@@ -20,7 +20,7 @@ body {
 
 header {
     background: black;
-    background-image: url("Images/hero.jpg");
+    background-image: url("images/hero.jpg");
     background-size: 100%;
     background-position: center;
     height: 400px;
@@ -36,20 +36,43 @@ section.feature-box {
     display: flex;
     flex-direction: row;
 }
-.feature-box.big-space {
+.feature-box.beliefs {
+    margin-right: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: black;
     text-align: center;
     line-height: 30px;
 }
 
-div {
+div.small-images {
     background: red;
     display: block;
     width: 100px;
     height: 20px;
     margin: auto;
+}
+
+div.about-section {
+    display: inline-block;
+}
+
+div.about-section.text {
+    text-align: left;
+    margin: auto;
+}
+
+div.about-section.images {
+    text-align: right;
+    background-image: url("images/logo-no-text.jpg");
+    background-size: 100%;
+    background-position: top;
+    height: 125px;
+    width: 100px;
+    padding: 125px;
+    margin: 15px 20px 0 5px;
+    background-repeat: no-repeat;
+    
 }
 
 ul {
