@@ -7,7 +7,7 @@ body {
 }
 
 .logo a {
-    background-image: url("images/logo.png");
+    background-image: url("Images/logo.png");
     background-size: 300px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -20,7 +20,7 @@ body {
 
 header {
     background: black;
-    background-image: url("images/hero.jpg");
+    background-image: url("Images/hero.jpg");
     background-size: 100%;
     background-position: center;
     height: 400px;
@@ -74,13 +74,13 @@ div.about-section.images {
 }
 
 div.about-section.images.one {
-    background-image: url("images/logo-no-text.jpg");
+    background-image: url("Images/logo-no-text.jpg");
     margin: 15px 20px 0 5px;
     padding: 125px;
 }
 
 div.about-section.images.two {
-    background-image: url("images/Prof_Pic.jpg");
+    background-image: url("Images/Prof_Pic.jpg");
     margin: 50px 0px 0 5px;
     padding: 175px;
 }
