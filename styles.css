@@ -7,7 +7,7 @@ body {
 }
 
 .logo a {
-    background-image: url("Images/logo.png");
+    background-image: url("images/logo.png");
     background-size: 300px;
     background-repeat: no-repeat;
     display: inline-block;
@@ -20,69 +20,11 @@ body {
 
 header {
     background: black;
-    background-image: url("Images/hero.jpg");
+    background-image: url("images/hero.jpg");
     background-size: 100%;
     background-position: center;
     height: 400px;
     padding: 20px;
-}
-
-section.feature-box {
-    background: white;
-    color: gray;
-    padding: 20px;
-}
-.feature-box.images {
-    display: flex;
-    flex-direction: row;
-}
-.feature-box.beliefs {
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    color: black;
-    text-align: center;
-    line-height: 30px;
-}
-
-div.small-images {
-    background: red;
-    display: block;
-    width: 100px;
-    height: 20px;
-    margin: auto;
-}
-
-div.about-section {
-    display: inline-block;
-}
-
-div.about-section.text {
-    text-align: left;
-    margin: auto;
-}
-
-div.about-section.images {
-    text-align: right;
-    background-position: top;
-    background-size: 100%;
-    
-    background-repeat: no-repeat;
-    height: 50px;
-    width: 100px;
-    
-}
-
-div.about-section.images.one {
-    background-image: url("Images/logo-no-text.jpg");
-    margin: 15px 20px 0 5px;
-    padding: 125px;
-}
-
-div.about-section.images.two {
-    background-image: url("Images/Prof_Pic.jpg");
-    margin: 50px 0px 0 5px;
-    padding: 175px;
 }
 
 ul {
@@ -107,26 +49,105 @@ li.nav-system {
 }
 
 .title-header {
-   display: flex;
-   flex-direction: column;
-   font-size: 50px; 
-   text-align: center;
-   margin: 150px -10px 0 -10px;
-   color: rgb(0, 39, 121);
-   background-color: rgba(197, 197, 197, 0.664);
-   padding: 10px 10px 10px 20px;
-   border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px; 
+    text-align: center;
+    margin: 150px -10px 0 -10px;
+    color: rgb(0, 39, 121);
+    background-color: rgba(197, 197, 197, 0.664);
+    padding: 10px 10px 10px 20px;
+    border-radius: 1px;
+}
+ 
+a {
+     text-decoration: none;
+ }
+.nav-system:hover {
+     text-decoration: underline;
+     text-decoration-color: black;
+ }
+
+/* Responsive Rules */
+
+
+/* Features */
+section.feature-box {
+    color: black;
+    padding: 20px;
+    line-height: 30px;
+}
+.feature-box.images {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    margin: auto;
+    padding: 30px;
+}
+.feature-box.beliefs {
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
-a {
-    text-decoration: none;
+section.feature-box.contact {
+    margin: auto;
 }
-.nav-system:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
+
+/* Images */
+div.small-images {
+    background: red;
+    display: block;
+    width: 100px;
+    height: 20px;
+    margin: auto;
+}
+
+/* About Section */
+div.about-section {
+    display: inline-block;
+}
+
+div.about-section.text {
+    text-align: left;
+    margin: auto;
+}
+
+div.about-section.images {
+    text-align: right;
+    background-position: top;
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+    
+}
+
+div.about-section.images.one {
+    background-image: url("images/logo-no-text.jpg");
+    margin: 15px 20px 0 5px;
+    padding: 125px;
+}
+
+div.about-section.images.two {
+    background-image: url("images/Prof_Pic.jpg");
+    margin: 50px 0px 0 5px;
+    padding: 175px;
+}
+
+/* Services Section */
+.service-info {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    
 }
 
 footer {
     background: black;
     padding: 10px 20px;
 }
+
