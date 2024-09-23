@@ -1,5 +1,9 @@
 services tab ✔️
 about tab ✔️
-contact us tab - Saturday 30th
-review - Monday 2nd
-Home page - Monday 2nd
+
+
+contact us tab
+review
+Home page
+
+Formatting for runoffs on devices
