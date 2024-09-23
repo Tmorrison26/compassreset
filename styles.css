@@ -146,8 +146,48 @@ div.about-section.images.two {
     
 }
 
+/* Review Tab */
+.container {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3f2fd;
+}
+
+.testimonial {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.testimonial .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    color: black;
+}
+
+.slide p{
+    text-align: center;
+    padding: 0 160px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.slide .quote-icon {
+    color: black;
+    font-size: 30px;
+}
+
+/* Footer Section */
 footer {
     background: black;
     padding: 10px 20px;
 }
-
