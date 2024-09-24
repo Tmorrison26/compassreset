@@ -3,6 +3,7 @@
     <head>
         <title>Contact Us</title>
         <link rel="stylesheet" href="styles.css">
+        
     </head>
     <body>
         <nav>
@@ -19,18 +20,60 @@
                 Contact Us
             </h1>
         </header>
-        <section class="feature-box contact">
-            <h1>Contact Form:</h1>
-            <p>
-                &emsp; <input id="firstName"> &emsp; <input id="lastName">
-                </br>
-                &emsp; <input id="firstName"> &emsp; <input id="lastName">
-            </p>
-        </section>
-        <section class="feature-box contact">
-            lower-section
-        </section>
+
+        <div class="connect">
+            <h1 class="msg-header">
+                Connect With Us
+            </h1>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send your request</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="input-row">
+                            <input type="hidden" name="access_key" value="36a9b167-a874-4ece-baa0-504775561f36">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" name="Name" placeholder="John Doe" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" name="Phone Number" placeholder="+1 (012) 345-6789" required>
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="text" name="Email" placeholder="johndoe@yahoo.com" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" name="Subject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" name="Message" placeholder="Your Message" style="font-family: Times New Roman; font-size: 15px;" required></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach Us</h3>
+
+                    <table>
+                        <tr>
+                            <td style="font-weight: 1000;">Email</td>
+                            <td>sarah.morrison@socialworker.net</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td style="font-weight: 1000;">Phone</td>
+                            <td>+1 (812) 929-8174</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
         <footer>footer</footer>
-        <!--<script src="scripts/main.js"></script>-->
     </body>
 </html>

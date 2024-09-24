@@ -1,9 +1,8 @@
 services tab ✔️
 about tab ✔️
-
+review ✔️
 
 contact us tab
-review
 Home page
 
 Formatting for runoffs on devices
