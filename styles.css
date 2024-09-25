@@ -255,6 +255,18 @@ tr td {
     padding-top: 20px;
 }
 
+
+/* Home Section */
+.image-spacer {
+    background: #fff;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 275px;
+    width: 275px;
+}
+
 /* Footer Section */
 footer {
     background: #fff;
